@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/CSS/style1.css">
+    <title>Proyecto 003</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header>
+            <h1>MONITOREO - PROYECTO 003</h1>
+        </header>
+        
+        <div class="main">
+            <div class="main__content">
+                <input type="button" id="startBtn" Value="OFF" onclick="onStartStop()">
+                <p>Modula el motor de la <br> Cinta Transportadora: </p>
+                <input type="number" id="pwm" name="pwm" min="250" max="1024" Value="360" onchange="pwmChange()">
+    
+            </div>
+            <img src="{{ url_for('video_feed') }}">
+        </div>
+        
+    <script src="../static/JS/script.js"></script>
+</body>
+</html>
