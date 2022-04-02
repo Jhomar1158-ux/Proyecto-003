@@ -1,7 +1,7 @@
 # Proyecto-003
 The development of this project allows us to apply concepts of microprocessors and microcontrollers for implementation in a product grouping system on a conveyor belt. For    this, computer vision libraries such as Tensor Flow and Open CV will be used, using Python as the base language. In this way, it seeks to achieve the objective of optimizing the classification of products and that it can be monitored on a screen using Flask.
 
-## Progress [05-02-2022]
+## Progress
 #### Conveyer Belt
 <a href='https://postimg.cc/nM32t60d' target='_blank'><img src='https://i.postimg.cc/Fs4B0vcQ/Whats-App-Image-2022-02-05-at-10-31-42-AM.jpg' width='250px' alt='Whats-App-Image-2022-02-05-at-10-31-42-AM'/></a>
 <a href='https://postimg.cc/WDS8bCsb' target='_blank'><img src='https://i.postimg.cc/DZ3M53Ds/Whats-App-Image-2022-02-05-at-10-31-43-AM.jpg' width='250px' alt='Whats-App-Image-2022-02-05-at-10-31-43-AM'/></a>
